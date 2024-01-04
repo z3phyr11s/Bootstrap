@@ -52,8 +52,8 @@ jobs:
     - name: Create new release
       uses: ncipollo/release-action@v1
       with:
-        name: Rolling Release
-        body: These are automatically updated builds of the latest commit.
+        name: Boohoo-strap
+        body: boohoohoooo
         artifacts: "Bootstrap.tipa"
         tag: release
         token: ${{ secrets.GITHUB_TOKEN }}
